@@ -40,4 +40,8 @@ public class StringUtilsTest {
     public void testGetIP() {
         assertEquals("127.0.0.1", getIp(new MockHttpServletRequest()));
     }
+    @Test
+    public void testGetCityInfo(){
+        System.out.println("get:"+getCityInfo("127.0.0.1"));
+    }
 }
