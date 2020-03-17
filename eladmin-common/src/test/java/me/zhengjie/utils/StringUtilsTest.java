@@ -42,6 +42,6 @@ public class StringUtilsTest {
     }
     @Test
     public void testGetCityInfo(){
-        System.out.println("get:"+getCityInfo("127.0.0.1"));
+        System.out.println("getaaa:"+getCityInfo("127.0.0.1"));
     }
 }
